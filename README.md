@@ -41,7 +41,7 @@ The C module can perform spk,wam,ddg,ggl.
 The project consists of the following files:
 
 1. spkmeans.py: The Python file responsible for the API of the project. It can be executed in the command line to perform various tasks related to spectral clustering.
-2. spkmeansmodule.c: The Python C API module that provides the interface between the Python code and the C implementation in the spkmeans.c.
+2. spkmeansmodule.c: The C API module that provides the interface between the Python code and the C implementation in the spkmeans.c.
 3. spkmeans.h: The header file that defines all function prototypes used in spkmeansmodule.c and implemented in spkmeans.c.
 4. spkmeans.c: The C module that contains the efficient implementations of the calculations needed for spectral clustering. can be used as API for directly working with the C algorithm.
 5. kmeans.c: The c module that contain the efficient implementations for kmeans algorithm.
